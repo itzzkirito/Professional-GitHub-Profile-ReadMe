@@ -127,22 +127,24 @@ const developer = {
 
 <div align="center">
   
-  <a href="https://discord.com/users/223237472195182592">
-    <img src="https://lanyard-profile-readme.vercel.app/api/223237472195182592?bg=0d1117&borderRadius=5px&idleMessage=Probably%20doing%20something%20else..." alt="Discord Status" />
+  <a href="https://discord.com/users/223237472195182592" target="_blank">
+    <img src="https://dcbadge.limes.pink/api/shield/223237472195182592?style=for-the-badge" alt="Discord Profile" />
   </a>
   
-  <!-- Alternative Options (if main status doesn't work):
-  
-  Option 1: Simple Discord Badge
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  
-  -->
-  
-  <a href="https://discord.com/users/223237472195182592">
-    <img src="https://api.discordprofile.me/223237472195182592" alt="Discord Presence" />
+  <a href="https://discord.com/users/223237472195182592" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   
-  <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+</div>
+
+<div align="center">
+  
+  ### Discord Badges
+  
+  <img src="https://img.shields.io/badge/Discord-Nitro-FF73FA?style=flat-square&logo=discord&logoColor=white" alt="Discord Nitro" />
+  <img src="https://img.shields.io/badge/Discord-HypeSquad-9C84EF?style=flat-square&logo=discord&logoColor=white" alt="Discord HypeSquad" />
+  <img src="https://img.shields.io/badge/Discord-Early%20Supporter-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord Early Supporter" />
+  <img src="https://img.shields.io/badge/Discord-Bug%20Hunter-FFD700?style=flat-square&logo=discord&logoColor=white" alt="Discord Bug Hunter" />
   
 </div>
 
