@@ -241,9 +241,11 @@ const developer = {
 
 <div align="center">
   
-  <!-- Snake animation - Will appear after GitHub Actions workflow runs -->
-  <!-- To enable: Push to GitHub, enable Actions, then run the workflow manually -->
-  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <!-- Contribution Heatmap (works immediately) -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true&height=300" alt="Contribution Heatmap" />
+  
+  <!-- Snake animation - Uncomment after GitHub Actions workflow runs successfully -->
+  <!-- <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/output/github-contribution-grid-snake.svg" alt="Snake animation" /> -->
   
 </div>
 
