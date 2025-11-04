@@ -17,7 +17,7 @@
 
 ```javascript
 const developer = {
-  name: "Your Name",
+  name: "Kirito",
   role: "Full Stack Developer",
   location: "Earth 🌍",
   interests: ["Web Development", "Open Source", "AI/ML"],
@@ -282,6 +282,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 
