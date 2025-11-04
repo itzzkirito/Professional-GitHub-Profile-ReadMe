@@ -249,6 +249,18 @@ const developer = {
   
 </div>
 
+## 🚀 My Projects
+
+<a href="https://github.com/itzzkirito/LYKS-GUI-V.0-b-ta">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&theme=react&repo=LYKS-GUI-V.0-b-ta" />
+</a>
+<a href="https://github.com/itzzkirito/Owl-Grabber">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&theme=react&repo=Owl-Grabber" />
+</a>
+<a href="https://github.com/itzzkirito/Owl-Grabber-Main">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&theme=react&repo=Owl-Grabber-Main" />
+</a>
+
 ---
 
 ## 🎨 Random Dev Quote
@@ -282,4 +294,5 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
