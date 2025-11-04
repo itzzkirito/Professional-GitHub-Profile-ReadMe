@@ -241,10 +241,10 @@ const developer = {
 
 <div align="center">
   
-  <!-- Contribution Heatmap (works immediately) -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true&height=300" alt="Contribution Heatmap" />
+  <!-- Contribution Calendar Visualization -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true&custom_title=My%20Contribution%20Activity" alt="Contribution Activity" />
   
-  <!-- Snake animation - Uncomment after GitHub Actions workflow runs successfully -->
+  <!-- Snake animation - Uncomment after workflow generates the file -->
   <!-- <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/output/github-contribution-grid-snake.svg" alt="Snake animation" /> -->
   
 </div>
