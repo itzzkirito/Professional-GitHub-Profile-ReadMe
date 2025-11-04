@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,12 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Generate snake animation
-        uses: Platane/snk@v3
+        uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -30,10 +28,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Commit and push
+        if: success()
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
-          git commit -m "Update snake animation [skip ci]" || exit 0
-          git push
+          git add output/github-contribution-grid-snake.svg
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update snake animation [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
 
