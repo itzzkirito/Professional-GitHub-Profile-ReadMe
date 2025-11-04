@@ -5,7 +5,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=65&section=header"/>
 </div>
-[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=itzzkirito&data=followers,repositories,stars,commits&theme=radical)](https://github.com/itzzkirito)
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=itzzkirito&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/itzzkirito?label=Followers&style=flat&color=0e75b6" alt="GitHub followers" />
@@ -282,6 +282,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 
