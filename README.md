@@ -128,11 +128,21 @@ const developer = {
 <div align="center">
   
   <a href="https://discord.com/users/223237472195182592">
-    <img src="https://lanyard.cnrad.dev/api/223237472195182592" alt="Discord Status" />
+    <img src="https://lanyard-profile-readme.vercel.app/api/223237472195182592?bg=0d1117&borderRadius=5px&idleMessage=Probably%20doing%20something%20else..." alt="Discord Status" />
   </a>
   
-  <!-- Alternative: Simple Discord Badge -->
-  <!-- <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /> -->
+  <!-- Alternative Options (if main status doesn't work):
+  
+  Option 1: Simple Discord Badge
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  
+  -->
+  
+  <a href="https://discord.com/users/223237472195182592">
+    <img src="https://api.discordprofile.me/223237472195182592" alt="Discord Presence" />
+  </a>
+  
+  <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   
 </div>
 
@@ -142,10 +152,16 @@ const developer = {
 
 <div align="center">
   
-  <img src="https://leetcode-stats-six.vercel.app/api?username=your-leetcode-username&theme=dark" alt="LeetCode Stats" />
+  <!-- Replace 'itzzkirito' with your LeetCode username if you have one -->
+  <!-- <img src="https://leetcode-stats-six.vercel.app/api?username=itzzkirito&theme=dark" alt="LeetCode Stats" /> -->
   
-  <!-- Or use shields.io -->
-  <!-- <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /> -->
+  <!-- Simple LeetCode Badge -->
+  <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  
+  <!-- Alternative: LeetCode Card (uncomment and add your username) -->
+  <!-- <img src="https://leetcode.card.workers.dev/?username=itzzkirito&theme=dark" alt="LeetCode Stats" /> -->
   
 </div>
 
@@ -171,7 +187,7 @@ const developer = {
   <a href="https://github.com/itzzkirito" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://discord.com/users/your-discord-id" target="_blank">
+  <a href="https://discord.com/users/223237472195182592" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
   <a href="mailto:your-email@example.com" target="_blank">
@@ -260,6 +276,4 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
-
-
 
