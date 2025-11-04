@@ -128,11 +128,11 @@ const developer = {
 <div align="center">
   
   <a href="https://discord.com/users/223237472195182592" target="_blank">
-    <img src="https://dcbadge.limes.pink/api/shield/223237472195182592?style=for-the-badge" alt="Discord Profile" />
+    <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Profile" />
   </a>
   
   <a href="https://discord.com/users/223237472195182592" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-223237472195182592-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord ID" />
   </a>
   
 </div>
