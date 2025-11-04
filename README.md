@@ -221,7 +221,7 @@ const developer = {
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itzzkirito&theme=github_dark" alt="Repos per Language" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itzzkirito&theme=github_dark" alt="Most Commit Language" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itzzkirito&theme=github_dark" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itzzkirito&theme=github_dark&utcOffset=8" alt="Productive Time" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itzzkirito&theme=github_dark&utcOffset=6" alt="Productive Time" />
   
 </div>
 
