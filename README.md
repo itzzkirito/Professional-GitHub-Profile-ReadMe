@@ -127,8 +127,8 @@ const developer = {
 
 <div align="center">
   
-  <a href="https://discord.com/users/your-discord-id">
-    <img src="https://lanyard.cnrad.dev/api/your-discord-id" alt="Discord Status" />
+  <a href="https://discord.com/users/223237472195182592">
+    <img src="https://lanyard.cnrad.dev/api/223237472195182592" alt="Discord Status" />
   </a>
   
   <!-- Alternative: Simple Discord Badge -->
@@ -260,4 +260,5 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
