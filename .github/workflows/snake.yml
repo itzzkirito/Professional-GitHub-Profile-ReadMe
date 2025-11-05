@@ -32,22 +32,50 @@ jobs:
       
       - name: Check if file was generated
         run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing output directory:"
+          ls -la output/ || echo "Output directory not found"
           if [ -f "output/github-contribution-grid-snake.svg" ]; then
             echo "✅ Snake animation file generated successfully"
-            ls -lh output/
+            ls -lh output/github-contribution-grid-snake.svg
           else
             echo "❌ Error: Snake animation file was not generated"
+            echo "Files in output directory:"
+            find output -type f 2>/dev/null || echo "No files found"
             exit 1
           fi
       
       - name: Commit and push
         if: success()
+        working-directory: ${{ github.workspace }}
         run: |
+          pwd
+          echo "Checking file existence..."
+          ls -la output/ || echo "Output directory listing failed"
+          
+          if [ ! -f "output/github-contribution-grid-snake.svg" ]; then
+            echo "❌ Error: File does not exist at output/github-contribution-grid-snake.svg"
+            echo "Current directory: $(pwd)"
+            echo "Looking for file..."
+            find . -name "github-contribution-grid-snake.svg" 2>/dev/null || echo "File not found anywhere"
+            exit 1
+          fi
+          
+          echo "File exists, configuring git..."
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          echo "Adding file to git..."
           git add output/github-contribution-grid-snake.svg
+          
+          echo "Checking git status..."
+          git status
+          
+          # Check if there are changes to commit
           if [ -n "$(git status --porcelain)" ]; then
+            echo "Committing changes..."
             git commit -m "Update snake animation [skip ci]"
+            echo "Pushing changes..."
             git push
           else
             echo "No changes to commit"
