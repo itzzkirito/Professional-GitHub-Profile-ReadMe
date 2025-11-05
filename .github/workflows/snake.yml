@@ -15,17 +15,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
       
+      - name: Create output directory
+        run: mkdir -p output
+      
       - name: Generate snake animation
-        uses: Platane/snk@master
+        uses: Platane/snk/svg-only@v3
+        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             output/github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Check if file was generated
+        run: |
+          if [ -f "output/github-contribution-grid-snake.svg" ]; then
+            echo "✅ Snake animation file generated successfully"
+            ls -lh output/
+          else
+            echo "❌ Error: Snake animation file was not generated"
+            exit 1
+          fi
       
       - name: Commit and push
         if: success()
@@ -39,4 +52,3 @@ jobs:
           else
             echo "No changes to commit"
           fi
-
